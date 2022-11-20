@@ -69,12 +69,12 @@ export default function Perfil() {
     const [name, setName] = React.useState(Nombre);
     const [email, setEmail] = React.useState(Correo);
     const [phone, setPhone] = React.useState(Telefono);
-    const CargarNombre = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setName(event.target.value);
-        setEmail(event.target.value);
-        setPhone(event.target.value);
+    // const CargarNombre = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //     setName(event.target.value);
+    //     setEmail(event.target.value);
+    //     setPhone(event.target.value);
  
-    };
+    // };
 
 
 
